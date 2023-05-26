@@ -23,3 +23,13 @@ firestore-import -a key.json -b database.json
 ```
 
 For more information read the [documentation](https://firebase.google.com/docs/firestore/manage-data/export-import)
+
+# Upload the functions
+
+For upload the functions that contains the API server. Go to "app-server" path, and execute the command:
+
+```
+firebase deploy --only functions
+```
+
+For more information read the [documentation](https://firebase.google.com/docs/functions/get-started?gen=2nd)
